@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search> 
+  
+    
+    <entry>
+      <title>新建博客</title>
+      <link href="/2018/10/25/%E6%96%B0%E5%BB%BA%E5%8D%9A%E5%AE%A2/"/>
+      <url>/2018/10/25/%E6%96%B0%E5%BB%BA%E5%8D%9A%E5%AE%A2/</url>
+      
+        <content type="html"><![CDATA[<p>#hexo+github搭建个人博客<br>一、基础环境搭建<br>1.node<br>why?因为hexo是一款基于node开发出来的博客框架<br>what?基于js语法的一款web服务器<br>how?打开官网<br><a href="https://nodejs.org/zh-cn/" target="_blank" rel="noopener">https://nodejs.org/zh-cn/</a><br>下载8.x的版本，双击下一步下一步安装<br>2.git版本控制器<br>github全球最大的开源代码托管平台<br>why？通过github托管博客项目<br>how？打开官网<br><a href="https://git-scm.com/" target="_blank" rel="noopener">点我</a><br>下载git的版本，双击下一步下一步安装</p><p>二、项目环境搭建<br>1.安装hexo脚手架：通过npm包管理器<br>npm install hexo-cli -g               npm install -g cnpm –registry=<a href="https://registry.npm.taobao.org" target="_blank" rel="noopener">https://registry.npm.taobao.org</a><br>  出现错误时删除C:\Users\web\AppData\Roaming\npm\node_modules里面的hexo-cli<br>npm:基于node的包管理器(类似于apple store)<br>install:导入、安装<br>hexo-cli:hexo脚手架<br>-g:全局</p><p>三.初始化一个博客项目<br>1、在桌面右键“git bash here”<br>2.初始化项目<br>hexo init blog<br>3.进入blog文件夹  //ls出现所有文件夹的名字  //pwd出现路径  //ls-a显示所有文件夹的路径<br>cd blog<br>4.安装项目依赖包<br>npm install<br>5、启动服务<br>hexo s<br>6.在百度里面输入“localhost:4000”</p><p>四、linux常用命令<br>1、路径切换<br>cd 目录名<br>2、常看前路径<br>pwd<br>3、查看当前路径所有文件及目录<br>ls -a<br>4、回到上级目录<br>cd ..<br>ctrl+l清屏</p>]]></content>
+      
+      
+      
+    </entry>
+    
+    <entry>
+      <title>markdow语法</title>
+      <link href="/2018/10/25/markdow%E8%AF%AD%E6%B3%95/"/>
+      <url>/2018/10/25/markdow%E8%AF%AD%E6%B3%95/</url>
+      
+        <content type="html"><![CDATA[<h1 id="标题"><a href="#标题" class="headerlink" title="标题"></a>标题</h1><h1 id="一级标题"><a href="#一级标题" class="headerlink" title="一级标题"></a>一级标题</h1><h2 id="二级标题"><a href="#二级标题" class="headerlink" title="二级标题"></a>二级标题</h2><h3 id="三"><a href="#三" class="headerlink" title="三"></a>三</h3><h4 id="四"><a href="#四" class="headerlink" title="四"></a>四</h4><h5 id="五"><a href="#五" class="headerlink" title="五"></a>五</h5><h6 id="六"><a href="#六" class="headerlink" title="六"></a>六</h6><h1 id="超链接"><a href="#超链接" class="headerlink" title="超链接"></a>超链接</h1><p><a href="http://www.baidu.com" target="_blank" rel="noopener">点我</a>跳转到百度<br><a href="链接地址">连接名字</a></p><h1 id="图片"><a href="#图片" class="headerlink" title="图片"></a>图片</h1><p><img src="http://img16.3lian.com/gif2016/q11/48/107.jpg" alt="唯美"><br><img src="链接地址" alt="图片名字"></p><h1 id="图片链接"><a href="#图片链接" class="headerlink" title="图片链接"></a>图片链接</h1><p><a href="http://www.baidu.com" target="_blank" rel="noopener"><img src="http://img16.3lian.com/gif2016/q11/48/107.jpg" alt="唯美"></a><br><a href="超链接地址"><img src="链接地址" alt="图片名字"></a></p><h1 id="文本修饰"><a href="#文本修饰" class="headerlink" title="文本修饰"></a>文本修饰</h1><p><strong>加粗效果</strong><br><em>文本倾斜</em><br><strong><em>加粗倾斜效果</em></strong><br><del>删除线</del></p><h1 id="分割线"><a href="#分割线" class="headerlink" title="分割线"></a>分割线</h1><p>三个或者三个以上的-或者*</p><hr><hr><h1 id="列表"><a href="#列表" class="headerlink" title="列表"></a>列表</h1><h2 id="有序列表"><a href="#有序列表" class="headerlink" title="有序列表"></a>有序列表</h2><p>1.账单<br>2.李四<br>3.玩码字</p><h2 id="无序列表"><a href="#无序列表" class="headerlink" title="无序列表"></a>无序列表</h2><p>以一个 + - *开头的</p><ul><li>序列一</li><li>序列二</li><li>序列三</li></ul><h1 id="表格"><a href="#表格" class="headerlink" title="表格"></a>表格</h1><table><thead><tr><th>姓名</th><th>排行</th><th>特长</th></tr></thead><tbody><tr><td>刘备</td><td>老大</td><td>哭</td></tr><tr><td>关云</td><td>老二</td><td>打</td></tr><tr><td>张飞</td><td>老三</td><td>骂</td></tr></tbody></table><h1 id="代码块"><a href="#代码块" class="headerlink" title="代码块"></a>代码块</h1><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">while</span> (alive)&#123;</span><br><span class="line">    code();</span><br><span class="line">    eat();</span><br><span class="line">    sleep();</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="selector-tag">body</span>&#123;</span><br><span class="line">    <span class="attribute">color</span>:red;</span><br><span class="line">    <span class="attribute">font-size</span>:<span class="number">15px</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 初始化博客项目</span></span><br><span class="line">hexo init blog</span><br><span class="line"><span class="comment"># 切换到博客路径</span></span><br><span class="line"><span class="built_in">cd</span> blog</span><br><span class="line"><span class="comment"># 安装依赖包</span></span><br><span class="line">npm install</span><br><span class="line"><span class="comment"># 启动hexo服务</span></span><br><span class="line">hexo s</span><br></pre></td></tr></table></figure>]]></content>
+      
+      
+      
+    </entry>
+    
+    <entry>
+      <title>仓央嘉措</title>
+      <link href="/2018/10/24/%E4%BB%93%E5%A4%AE%E5%98%89%E6%8E%AA/"/>
+      <url>/2018/10/24/%E4%BB%93%E5%A4%AE%E5%98%89%E6%8E%AA/</url>
+      
+        <content type="html"><![CDATA[<h2 id="明眸皓齿艳无双，"><a href="#明眸皓齿艳无双，" class="headerlink" title="明眸皓齿艳无双，"></a>明眸皓齿艳无双，</h2><h2 id="比拟圆月两相仿。"><a href="#比拟圆月两相仿。" class="headerlink" title="比拟圆月两相仿。"></a>比拟圆月两相仿。</h2><h2 id="惆怅婵娟多寂寞，"><a href="#惆怅婵娟多寂寞，" class="headerlink" title="惆怅婵娟多寂寞，"></a>惆怅婵娟多寂寞，</h2><h2 id="欢情只供一夜长。"><a href="#欢情只供一夜长。" class="headerlink" title="欢情只供一夜长。"></a>欢情只供一夜长。</h2>]]></content>
+      
+      
+      
+    </entry>
+    
+    <entry>
+      <title>今日毒鸡汤</title>
+      <link href="/2018/10/24/%E4%BB%8A%E6%97%A5%E6%AF%92%E9%B8%A1%E6%B1%A4/"/>
+      <url>/2018/10/24/%E4%BB%8A%E6%97%A5%E6%AF%92%E9%B8%A1%E6%B1%A4/</url>
+      
+        <content type="html"><![CDATA[<h2 id="船到桥头自然沉"><a href="#船到桥头自然沉" class="headerlink" title="船到桥头自然沉"></a>船到桥头自然沉</h2><h2 id="你不努力一下都不知道自己有多失败"><a href="#你不努力一下都不知道自己有多失败" class="headerlink" title="你不努力一下都不知道自己有多失败"></a>你不努力一下都不知道自己有多失败</h2><h3 id="——Pansy"><a href="#——Pansy" class="headerlink" title="——Pansy"></a>——Pansy</h3>]]></content>
+      
+      
+      
+    </entry>
+    
+    <entry>
+      <title>您好，世界！</title>
+      <link href="/2018/10/24/hello-world/"/>
+      <url>/2018/10/24/hello-world/</url>
+      
+        <content type="html"><![CDATA[<p>今天是个特殊的日子。</p>]]></content>
+      
+      
+      
+    </entry>
+    
+  
+  
+</search>
